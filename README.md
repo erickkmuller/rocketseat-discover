@@ -22,6 +22,8 @@ Página pessoal para reunir meus principais links profissionais, projetos e curr
 - JavaScript
 - Figma
 
+Este é um projeto estático. Não requer `npm`, dependências ou etapa de build.
+
 ## Executar localmente
 
 1. Abra a pasta do projeto no Visual Studio Code.
@@ -65,6 +67,16 @@ O tema inicial é aplicado durante o carregamento para reduzir a possibilidade d
 - [Currículo em PDF](./assets/curriculo-erick.pdf)
 
 O currículo também contém links clicáveis para LinkedIn e GitHub.
+
+## Atualizações recentes
+
+- Separação do código de tema em `script.js`.
+- Aplicação antecipada do tema inicial e tratamento de falhas de acesso ao `localStorage`.
+- Atualização automática conforme a preferência do sistema, quando não há uma escolha manual salva.
+- Correção da foto usada na versão clara para exibir a mesma foto correta da versão normal.
+- Inclusão de metadados de autoria, cor do navegador e compartilhamento social.
+- Substituição do currículo pelo PDF atualizado, preservando os links clicáveis de LinkedIn e GitHub.
+- Uso do nome `curriculo-erick.pdf` no caminho do currículo para evitar problemas com acentos em alguns servidores.
 
 ## :memo: Licença
 
